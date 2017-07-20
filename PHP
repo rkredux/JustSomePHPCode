@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<link type='text/css' rel='stylesheet' href='style.css'/>
+		<title>More Coin Flips</title>
+	</head>
+	<body>
+	<p>We will keep flipping a coin as long as the result is heads!</p>
+	<?php
+	//instructions
+	//keep flipping till heads shows up. 
+	//stop if tails shows up
+	//for ever spin echo an html element with symbol inside
+	//in the end echo the total number of consecutive heads
+	?>
+    </body>
+</html>
