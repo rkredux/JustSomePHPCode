@@ -33,3 +33,29 @@
     ?>
     </body>
 </html>
+
+
+
+
+//Just using array sort, echo and join methods on Array in PHP and printing the output
+<html>
+
+    <p>
+	<?php
+    $the_array = array("okay", "no", "yes", "why"); 
+    sort($the_array); 
+    echo join(", ", $the_array);  
+    ?>
+	</p>
+	
+	
+	<p>
+	<?php
+	rsort($the_array); 
+	echo join(", ", $the_array); 
+	// Reverse sort your array and print the joined elements to the screen
+	?>
+	</p>
+	
+	
+</html>
